@@ -4,3 +4,7 @@
 "\e[B":history-search-forward
 ## escape
 Escape: kill-whole-line
+
+## ctrl-jump word
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
