@@ -5,8 +5,9 @@ set horizontal-scroll-mode Off
 set meta-flag On 
 set input-meta On
 
-# Make sure we don't output everything on the 1 line
 set horizontal-scroll-mode Off
+
+set completion-ignore-case on
 
 # Turns off 8th bit stripping
 set convert-meta Off
@@ -17,9 +18,6 @@ set output-meta On
 # none, visible or audible
 set bell-style none
  
-# All of the following map the escape sequence of the 
-# value contained inside the 1st argument to the 
-# readline specific functions
 
 
 ## history search 
